@@ -1,0 +1,260 @@
+[Download Tool Root2022-1-27,18:2:30]
+2022-1-27,18:2:30 ============================BEGIN===============================
+2022-1-27,18:2:30 Time=2022-1-27,18:2:30
+2022-1-27,18:2:31 go into CMainControl::FindCommPort()=
+2022-1-27,18:2:32 go into CMainControl::FindCommPort()=
+2022-1-27,18:2:32 查询端口等待时间=1000 ms，查询端口成功=
+2022-1-27,18:2:32 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-27,18:2:32 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-27,18:2:32 go into CMainControl::TryToLock()=
+2022-1-27,18:2:32 OpenPort=OK
+2022-1-27,18:2:32 进入SwitchToDiag()=
+2022-1-27,18:2:33 第1次发切换到Diag命令写成功=
+2022-1-27,18:2:33 OpenPort=OK
+2022-1-27,18:2:33 查询下载模式写成功=
+2022-1-27,18:2:36 查询下载模式读失败=
+2022-1-27,18:2:36 查询下载模式写成功=
+2022-1-27,18:2:39 查询下载模式读失败=
+2022-1-27,18:2:39 查询下载模式写成功=
+2022-1-27,18:2:42 查询下载模式读失败=
+2022-1-27,18:2:42 查询单板当前工作模式QueryDldMode().bRet = 0=
+2022-1-27,18:2:42 判断当前单板是否为CDMA的产品=
+2022-1-27,18:2:42 当前产品为W系列产品=
+2022-1-27,18:2:42 开始查询当前的dashboard版本号=
+2022-1-27,18:2:42 进入QueryISOVersion(函数)=
+2022-1-27,18:2:42 查询ISO版本号写成功=
+2022-1-27,18:2:42 后台ISO版本号,Version＝ UTPS11.300.05.15.209_MAC11.301.09.01.209_LNX11.301.06.01.209=
+2022-1-27,18:2:42 升级前IMEI 357123033088070=
+2022-1-27,18:2:42 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-27,18:2:42 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-27,18:2:43 查询版本号等待时间=12000 ms，查询版本号成功=
+2022-1-27,18:2:43 当前单板软件版本=UTPS11.300.05.15.209_MAC11.301.09.01.209_LNX11.301.06.01.209
+2022-1-27,18:2:43 目标单板软件版本=UTPS11.300.05.21.543_MAC15.001.06.01.143
+2022-1-27,18:3:15 进入InitBackupUserInfo=
+2022-1-27,18:3:15 不备份NV，进入MC_STATE_DLD状态=
+2022-1-27,18:3:15 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-27,18:3:15 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-27,18:3:15 go into CMainControl::TryToLock()=
+2022-1-27,18:3:15 进入查询切换后光盘模式QueryCDROMState().=
+2022-1-27,18:3:15 查询切换后光盘模式命令成功.=
+2022-1-27,18:3:15 进入切换下载模式函数DIAG_SwitchToDldMode().=
+2022-1-27,18:3:15 切换下载模式命令成功.=
+2022-1-27,18:3:25 go into CMainControl::FindCommPort()=
+2022-1-27,18:3:25 切换到下载模式后，端口刷新找到端口=
+2022-1-27,18:3:25 OpenPort=OK
+2022-1-27,18:3:25 查询下载模式写成功=
+2022-1-27,18:3:25 查询下载模式读成功=
+2022-1-27,18:3:25 查询下载模式成功=
+2022-1-27,18:3:25 查询单板当前工作模式QueryDldMode().bRet = 1=
+2022-1-27,18:3:25 进入切换下载模式函数DIAG_SwitchToDldMode().=
+2022-1-27,18:3:25 切换下载模式命令成功.=
+2022-1-27,18:3:25 一键升级中单板类型为:ProductClass = HUAWEI Dashboard=
+2022-1-27,18:3:25 进入查询单板类别函数QueryBoardClass().=
+2022-1-27,18:3:25 查询单板类型成功=
+2022-1-27,18:3:25 单板类型为:BoardClass = EHUAWEI E155=
+2022-1-27,18:3:26 0x000a0000第1次发初始化下载命令成功=
+2022-1-27,18:3:26 0x000a0000第1次发初始化下载命令,单板正确回应=
+2022-1-27,18:3:26 0x000a0000第1次发文件下载结束命令成功=
+2022-1-27,18:3:26 0x000a0000第1次发文件下载结束命令，单板正确回应=
+2022-1-27,18:3:26 DownLoad OK = Unit 1=
+2022-1-27,18:3:27 0x000b0000第1次发初始化下载命令成功=
+2022-1-27,18:3:27 0x000b0000第1次发初始化下载命令,单板正确回应=
+2022-1-27,18:6:28 0x000b0000第1次发文件下载结束命令成功=
+2022-1-27,18:6:28 0x000b0000第1次发文件下载结束命令，单板正确回应=
+2022-1-27,18:6:28 DownLoad OK = Unit 2=
+2022-1-27,18:6:28 重启单板=
+2022-1-27,18:6:28 strUpdateBinTemp临时文件使用完后在DLD_Process中END处删除=
+2022-1-27,18:6:31 关闭端口成功=
+2022-1-27,18:6:31 后台软件升级成功=
+2022-1-27,18:6:31 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-27,18:6:31 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-27,18:6:38 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-27,18:6:38 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-27,18:6:39 ===========================END==============================
+[Download Tool Root2022-1-28,10:9:8]
+2022-1-28,10:9:8 ============================BEGIN===============================
+2022-1-28,10:9:8 Time=2022-1-28,10:9:8
+2022-1-28,10:9:10 go into CMainControl::FindCommPort()=
+2022-1-28,10:9:11 go into CMainControl::FindCommPort()=
+2022-1-28,10:9:11 查询端口等待时间=1000 ms，查询端口成功=
+2022-1-28,10:9:11 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:9:11 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:9:11 go into CMainControl::TryToLock()=
+2022-1-28,10:9:11 OpenPort=OK
+2022-1-28,10:9:11 进入SwitchToDiag()=
+2022-1-28,10:9:11 第1次发切换到Diag命令写成功=
+2022-1-28,10:9:11 查询下载模式写成功=
+2022-1-28,10:9:14 查询下载模式读失败=
+2022-1-28,10:9:14 查询下载模式写成功=
+2022-1-28,10:9:17 查询下载模式读失败=
+2022-1-28,10:9:18 查询下载模式写成功=
+2022-1-28,10:9:21 查询下载模式读失败=
+2022-1-28,10:9:21 查询单板当前工作模式QueryDldMode().bRet = 0=
+2022-1-28,10:9:21 判断当前单板是否为CDMA的产品=
+2022-1-28,10:9:21 当前产品为W系列产品=
+Download mode=Normal download
+2022-1-28,10:9:21 进入查询单板软件版本号函数QueryBoardVersion().=
+2022-1-28,10:9:21 升级前IMEI 357123033088070=
+2022-1-28,10:9:21 从一个定制版本升级到另一个定制版本或从一个定制版本升级到通用版本，升级前要先输入校验密码=
+2022-1-28,10:9:21 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:9:21 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:9:21 查询版本号等待时间=12000 ms，查询版本号成功=
+2022-1-28,10:9:21 当前单板软件版本=11.608.12.10.209
+2022-1-28,10:9:21 目标单板软件版本=11.608.12.04.21
+2022-1-28,10:9:59 进入函数CMainControl::CheckPassword()=
+2022-1-28,10:9:59 密码校验失败=
+2022-1-28,10:9:59 校验密码输入错误，退出升级程序1=
+2022-1-28,10:9:59 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:9:59 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:10:3 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:10:3 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:10:3 ===========================END==============================
+[Download Tool Root2022-1-28,10:10:17]
+2022-1-28,10:10:17 ============================BEGIN===============================
+2022-1-28,10:10:17 Time=2022-1-28,10:10:17
+2022-1-28,10:10:18 go into CMainControl::FindCommPort()=
+2022-1-28,10:10:19 go into CMainControl::FindCommPort()=
+2022-1-28,10:10:19 查询端口等待时间=1000 ms，查询端口成功=
+2022-1-28,10:10:19 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:10:19 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:10:19 go into CMainControl::TryToLock()=
+2022-1-28,10:10:19 OpenPort=OK
+2022-1-28,10:10:19 进入SwitchToDiag()=
+2022-1-28,10:10:20 第1次发切换到Diag命令写成功=
+2022-1-28,10:10:20 OpenPort=OK
+2022-1-28,10:10:20 查询下载模式写成功=
+2022-1-28,10:10:23 查询下载模式读失败=
+2022-1-28,10:10:23 查询下载模式写成功=
+2022-1-28,10:10:26 查询下载模式读失败=
+2022-1-28,10:10:26 查询下载模式写成功=
+2022-1-28,10:10:29 查询下载模式读失败=
+2022-1-28,10:10:29 查询单板当前工作模式QueryDldMode().bRet = 0=
+2022-1-28,10:10:29 判断当前单板是否为CDMA的产品=
+2022-1-28,10:10:30 当前产品为W系列产品=
+Download mode=Normal download
+2022-1-28,10:10:30 进入查询单板软件版本号函数QueryBoardVersion().=
+2022-1-28,10:10:30 升级前IMEI 357123033088070=
+2022-1-28,10:10:30 从一个定制版本升级到另一个定制版本或从一个定制版本升级到通用版本，升级前要先输入校验密码=
+2022-1-28,10:10:30 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:10:30 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:10:30 查询版本号等待时间=12000 ms，查询版本号成功=
+2022-1-28,10:10:30 当前单板软件版本=11.608.12.10.209
+2022-1-28,10:10:30 目标单板软件版本=11.608.12.04.21
+2022-1-28,10:11:47 进入函数CMainControl::CheckPassword()=
+2022-1-28,10:11:47 密码校验失败=
+2022-1-28,10:11:47 校验密码输入错误，退出升级程序1=
+2022-1-28,10:11:47 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:11:47 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:14:35 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:14:35 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:14:36 ===========================END==============================
+[Download Tool Root2022-1-28,10:14:42]
+2022-1-28,10:14:42 ============================BEGIN===============================
+2022-1-28,10:14:42 Time=2022-1-28,10:14:42
+2022-1-28,10:14:44 go into CMainControl::FindCommPort()=
+2022-1-28,10:14:45 go into CMainControl::FindCommPort()=
+2022-1-28,10:14:45 查询端口等待时间=1000 ms，查询端口成功=
+2022-1-28,10:14:45 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:14:45 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:14:45 go into CMainControl::TryToLock()=
+2022-1-28,10:14:45 OpenPort=OK
+2022-1-28,10:14:45 进入SwitchToDiag()=
+2022-1-28,10:14:45 第1次发切换到Diag命令写成功=
+2022-1-28,10:14:45 查询下载模式写成功=
+2022-1-28,10:14:48 查询下载模式读失败=
+2022-1-28,10:14:48 查询下载模式写成功=
+2022-1-28,10:14:51 查询下载模式读失败=
+2022-1-28,10:14:52 查询下载模式写成功=
+2022-1-28,10:14:55 查询下载模式读失败=
+2022-1-28,10:14:55 查询单板当前工作模式QueryDldMode().bRet = 0=
+2022-1-28,10:14:55 判断当前单板是否为CDMA的产品=
+2022-1-28,10:14:55 当前产品为W系列产品=
+Download mode=Normal download
+2022-1-28,10:14:55 进入查询单板软件版本号函数QueryBoardVersion().=
+2022-1-28,10:14:55 升级前IMEI 357123033088070=
+2022-1-28,10:14:55 从一个定制版本升级到另一个定制版本或从一个定制版本升级到通用版本，升级前要先输入校验密码=
+2022-1-28,10:14:55 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:14:55 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:14:55 查询版本号等待时间=12000 ms，查询版本号成功=
+2022-1-28,10:14:55 当前单板软件版本=11.608.12.10.209
+2022-1-28,10:14:55 目标单板软件版本=11.608.12.04.21
+2022-1-28,10:15:2 进入函数CMainControl::CheckPassword()=
+2022-1-28,10:15:2 密码校验失败=
+2022-1-28,10:15:2 校验密码输入错误，退出升级程序1=
+2022-1-28,10:15:2 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:15:2 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:15:6 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:15:6 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:15:6 ===========================END==============================
+[Download Tool Root2022-1-28,10:15:20]
+2022-1-28,10:15:20 ============================BEGIN===============================
+2022-1-28,10:15:20 Time=2022-1-28,10:15:20
+2022-1-28,10:15:22 go into CMainControl::FindCommPort()=
+2022-1-28,10:15:23 go into CMainControl::FindCommPort()=
+2022-1-28,10:15:23 查询端口等待时间=1000 ms，查询端口成功=
+2022-1-28,10:15:23 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:15:23 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:15:23 go into CMainControl::TryToLock()=
+2022-1-28,10:15:23 OpenPort=OK
+2022-1-28,10:15:23 进入SwitchToDiag()=
+2022-1-28,10:15:23 第1次发切换到Diag命令写成功=
+2022-1-28,10:15:24 查询下载模式写成功=
+2022-1-28,10:15:27 查询下载模式读失败=
+2022-1-28,10:15:27 查询下载模式写成功=
+2022-1-28,10:15:30 查询下载模式读失败=
+2022-1-28,10:15:30 查询下载模式写成功=
+2022-1-28,10:15:33 查询下载模式读失败=
+2022-1-28,10:15:33 查询单板当前工作模式QueryDldMode().bRet = 0=
+2022-1-28,10:15:33 判断当前单板是否为CDMA的产品=
+2022-1-28,10:15:33 当前产品为W系列产品=
+2022-1-28,10:15:33 开始查询当前的dashboard版本号=
+2022-1-28,10:15:33 进入QueryISOVersion(函数)=
+2022-1-28,10:15:33 查询ISO版本号写成功=
+2022-1-28,10:15:33 后台ISO版本号,Version＝ UTPS11.300.05.15.143_MAC11.301.09.01.143=
+2022-1-28,10:15:33 升级前IMEI 357123033088070=
+2022-1-28,10:15:33 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:15:33 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:15:33 查询版本号等待时间=12000 ms，查询版本号成功=
+2022-1-28,10:15:33 当前单板软件版本=UTPS11.300.05.15.143_MAC11.301.09.01.143
+2022-1-28,10:15:33 目标单板软件版本=UTPS11.300.05.21.543_MAC15.001.06.01.143
+2022-1-28,10:15:37 进入InitBackupUserInfo=
+2022-1-28,10:15:37 不备份NV，进入MC_STATE_DLD状态=
+2022-1-28,10:15:37 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:15:37 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:15:37 go into CMainControl::TryToLock()=
+2022-1-28,10:15:37 进入查询切换后光盘模式QueryCDROMState().=
+2022-1-28,10:15:37 查询切换后光盘模式命令成功.=
+2022-1-28,10:15:37 进入切换下载模式函数DIAG_SwitchToDldMode().=
+2022-1-28,10:15:39 切换下载模式命令成功.=
+2022-1-28,10:15:46 go into CMainControl::FindCommPort()=
+2022-1-28,10:15:46 切换到下载模式后，端口刷新找到端口=
+2022-1-28,10:15:46 OpenPort=OK
+2022-1-28,10:15:46 查询下载模式写成功=
+2022-1-28,10:15:46 查询下载模式读成功=
+2022-1-28,10:15:46 查询下载模式成功=
+2022-1-28,10:15:46 查询单板当前工作模式QueryDldMode().bRet = 1=
+2022-1-28,10:15:46 进入切换下载模式函数DIAG_SwitchToDldMode().=
+2022-1-28,10:15:46 切换下载模式命令成功.=
+2022-1-28,10:15:46 一键升级中单板类型为:ProductClass = HUAWEI Dashboard=
+2022-1-28,10:15:46 进入查询单板类别函数QueryBoardClass().=
+2022-1-28,10:15:46 查询单板类型成功=
+2022-1-28,10:15:46 单板类型为:BoardClass = EHUAWEI E155=
+2022-1-28,10:15:46 0x000a0000第1次发初始化下载命令成功=
+2022-1-28,10:15:46 0x000a0000第1次发初始化下载命令,单板正确回应=
+2022-1-28,10:15:46 0x000a0000第1次发文件下载结束命令成功=
+2022-1-28,10:15:46 0x000a0000第1次发文件下载结束命令，单板正确回应=
+2022-1-28,10:15:46 DownLoad OK = Unit 1=
+2022-1-28,10:15:47 0x000b0000第1次发初始化下载命令成功=
+2022-1-28,10:15:47 0x000b0000第1次发初始化下载命令,单板正确回应=
+2022-1-28,10:18:46 0x000b0000第1次发文件下载结束命令成功=
+2022-1-28,10:18:46 0x000b0000第1次发文件下载结束命令，单板正确回应=
+2022-1-28,10:18:46 DownLoad OK = Unit 2=
+2022-1-28,10:18:46 重启单板=
+2022-1-28,10:18:46 strUpdateBinTemp临时文件使用完后在DLD_Process中END处删除=
+2022-1-28,10:18:48 关闭端口成功=
+2022-1-28,10:18:48 后台软件升级成功=
+2022-1-28,10:18:48 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:18:48 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:30:50 go into CMainControl::SetCurState(DWORD dwState)=
+2022-1-28,10:30:50 go into CMainControl::NeedLock(DWORD dwNewState)=
+2022-1-28,10:30:50 ===========================END==============================
